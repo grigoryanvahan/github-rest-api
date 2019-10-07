@@ -7,7 +7,6 @@ import '../App.css';
 import logo from '../logo.png';
 
 const Api = props => {
-    let userArea = document.getElementById('userArea');
     const handleUsername = e => {
         props.changeUsername(e);
     };
